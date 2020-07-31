@@ -1,5 +1,5 @@
 {
-  "homepage": "http://pauliCZ44.github.io/reactToDoApp",
+  "homepage": "http://PauliCZ44.github.com/reactToDoApp",
   "name": "mytodoapp",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "predeploy": "nom run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
