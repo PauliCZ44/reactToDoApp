@@ -22,7 +22,7 @@ footer {
   bottom: 0px;
   left: 0px;
   width: 100%;
-  z-index: 0;
+  z-index: 1;
   margin-top: 50px;
   margin-bottom:0px;
   font-size: 0.7rem;
@@ -143,35 +143,6 @@ font-size: 1.5rem;
   padding-right: 0px;
 }
 
-
-@media (max-width: 576px) {
- 
-.todo-text{
-  color:  #0d47a1  ;
-  font-size: 1.1em;
-  font-weight: 500;
-
-  margin: 0.2em auto 0.2em auto;
-  padding-right: 0.1em;
-  padding-top: 0.1em;
-  padding-bottom: 0.1em;
-  line-height: normal;
-  vertical-align: middle;
-}
-
-.todo-point {
-  color: #0d47a1 ;
-  font-size: 1.2em;
-  font-weight: 500;
-  padding-right: 0.5em;
-  margin: 0.2em auto 0.2em auto;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
-  line-height: normal;
-  vertical-align: middle;
-}
-}
-
 .controlBtn {
   margin: 5px 10px 5px 10px;
 }
@@ -200,4 +171,57 @@ color:red;
 
 .marginExtra{
 margin-bottom: 150px;
+}
+
+@media (max-width: 576px) {
+ 
+  .todo-text{
+    color:  #0d47a1  ;
+    font-size: 1.1em;
+    font-weight: 500;
+
+    margin: 0.2em auto 0.2em auto;
+    padding-right: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+  .todo-point {
+    color: #0d47a1 ;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-right: 0.5em;
+    margin: 0.2em auto 0.2em auto;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+h1{
+    font-size: 3.5rem;
+    margin: 2.2rem 0 1.2rem 0;  
+}
+
+h5 {
+  font-size: 1.2rem;
+    line-height: 100%;
+    margin: .8933333333rem 0 .556rem 0;
+}
+
+.controlBtn {
+  margin: 3px 5px 3px 5px;
+  padding: 0px 10px;
+}
+
+footer .row {
+  margin: 0 auto 5px auto;
+}
+
+footer{
+  z-index: 1;
+}
+
 }
